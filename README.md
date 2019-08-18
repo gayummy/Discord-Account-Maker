@@ -1,4 +1,4 @@
 # Discord-Account-Maker
 
 # WORK IN PROGRESS
-MADE BY AFIRE,YOMI.
+MADE BY AFIRE,YOMI,JOE.
