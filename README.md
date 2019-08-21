@@ -10,3 +10,12 @@ MADE BY AFIRE,YOMI,JOE.
 - Beautiful Soup 4 (pip install bs4)
 - Selenium (pip install selenium)
 - Requests (pip install requests)
+
+## reqs for email generator (WIP)
+
+- names (pip install names)
+- need to download chromedriver for selenium, and proper filepath (included in github)
+  > shift+rightclick on chromedriver.exe, then click 'Copy as path' and paset that into the 'chrome_path field in the script
+  
+
+
