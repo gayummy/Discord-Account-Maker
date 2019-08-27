@@ -44,7 +44,7 @@ emailAddress = driver.find_element_by_name("Username").get_attribute("value")
 print(emailAddress)
 
 # write email data to text file
-open("emailData.txt","a").write(firstName+","+lastName+","+emailAddress+"@gmail.com"+","password+"\n")
+open("emailData.txt","a").write(firstName + "," + lastName + "," + emailAddress + "@gmail.com" + "," + password + "\n")
 
 #click next button
 driver.find_element_by_id("accountDetailsNext").click()
