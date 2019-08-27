@@ -8,7 +8,7 @@ import string
 
 # generate a random string of fixed length with
 def randomString(stringLength=10):
-    letters = string.ascii_lowercase
+    letters = string.ascii_letters
     return ''.join(random.choice(letters) for i in range(stringLength))+"!"
 
 # create chrome driver and open google signup page
@@ -44,7 +44,7 @@ emailAddress = driver.find_element_by_name("Username").get_attribute("value")
 print(emailAddress)
 
 # write email data to text file
-open("emailData.txt","a").write(firstName+","+lastName+","+emailAddress+"@gmail.com"+"\n")
+open("emailData.txt","a").write(firstName+","+lastName+","+emailAddress+"@gmail.com"+","password+"\n")
 
 #click next button
 driver.find_element_by_id("accountDetailsNext").click()
