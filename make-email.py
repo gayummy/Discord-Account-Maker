@@ -8,7 +8,7 @@ import string
 
 # generate a random string of fixed length with
 def randomString(stringLength=10):
-    letters = string.ascii_lowercase
+    letters = string.ascii_letters
     return ''.join(random.choice(letters) for i in range(stringLength))+"!"
 
 # create chrome driver and open google signup page
